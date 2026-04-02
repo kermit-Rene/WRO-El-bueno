@@ -1,13 +1,14 @@
 int tiempo=500;
+int led = 13;
 void setup() {
   // put your setup code here, to run once:
-pinMode(12,OUTPUT);
+pinMode(led,OUTPUT);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-digitalWrite(13,HIGH);
+digitalWrite(led,HIGH);
 delay(x);
-digitalWrite(13,LOW);
+digitalWrite(led,LOW);
 delay(x);
 }
